@@ -1,0 +1,79 @@
+
+.formSection {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #58AA58;
+    padding: 15px;
+    margin: 15px;
+}
+
+.formElement {
+    margin: 10px 0;
+}
+
+.formFieldName {
+
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 200px; 
+    margin: 10px 0;  
+    font-size: 1em; 
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 350px;
+    height: 100px;
+    font-size: 1em;
+}
+
+select  {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    font-size: 1em;
+    background: #FFF;
+}
+
+input[type=submit], input[type=button] {
+    padding: 15px;
+    margin: 0px 15px;
+    background: #575;
+    color: white;    
+    font-weight: bold;
+}
+
+.formFieldValidation {
+    color: red;
+}
+
+form {
+    margin: 20px 10px;
+}
+
+body {
+    background: #DED;
+    margin: 15px;
+}
+
+table {
+    border: 1px solid #58AA58;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #58AA58;
+    padding: 10px;
+}
+
+table th {
+    background: #69BB69;
+    border: 1px solid #58AA58; 
+}
+
+table tr:hover {
+    background: #69BB69;
+    cursor: pointer;
+}
